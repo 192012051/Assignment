@@ -1,0 +1,95 @@
+/* src/components/Onebox.css */
+
+.onebox {
+    display: flex;
+    height: 100vh;
+    width:200vh;
+    color: #fff;
+    background-color: #000;
+}
+
+.sidebar {
+    width: 60px;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 1.5em;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.profile-icon {
+    font-size: 1.2em;
+    margin-top: auto;
+    margin-bottom: 20px;
+    background-color: green;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.workspace-dropdown {
+    cursor: pointer;
+    color: #fff;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.center-image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.main-heading {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-heading {
+    font-size: 1em;
+    color: #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
